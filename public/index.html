@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StockPro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0a0c10; color: #e2e8f0; font-family: 'Inter', sans-serif; }
+    @keyframes spin   { to { transform: rotate(360deg); } }
+    @keyframes pulse  { 0%,100%{opacity:1} 50%{opacity:.4} }
+    @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+    .spinner { display:inline-block;width:16px;height:16px;border:2px solid #334155;
+               border-top-color:#6366f1;border-radius:50%;animation:spin .7s linear infinite; }
+    select, input, button { font-family: 'Inter', sans-serif; }
+    table { border-collapse: collapse; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #0f1318; }
+    ::-webkit-scrollbar-thumb { background: #1e2533; border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="/js/main.js"></script>
+</body>
+</html>

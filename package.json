@@ -1,0 +1,10 @@
+{
+  "name": "stockpro",
+  "version": "1.0.0",
+  "scripts": {
+    "dev":   "shadow-cljs watch app",
+    "build": "shadow-cljs release app",
+    "repl":  "shadow-cljs cljs-repl app"
+  },
+  "devDependencies": { "shadow-cljs": "2.26.2" }
+}
