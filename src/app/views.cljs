@@ -371,7 +371,7 @@
                            :color (if (zero? (:qte-rest lot)) "#334155" "#34d399")}} (:qte-rest lot)]
              [:td {:style {:padding "9px 14px" :font-family "JetBrains Mono"}} (str (fmt (:pu lot)) " €")]
              [:td {:style {:padding "9px 14px" :font-family "JetBrains Mono" :color "#a5b4fc"}}
-              (str (fmt (* (:qte-rest lot) (:pu lot))) " €")]]))]]]])))
+              (str (fmt (* (:qte-rest lot) (:pu lot))) " €")]]))]]]]))
 
 ;; ═══════════════════════════════════════════════════════
 ;; ACHATS (BC + Import IA)
@@ -507,7 +507,7 @@
                         :style (assoc s-in :width "auto")}]
                [:button {:on-click #(rf/dispatch [:remove-bc-ligne i])
                          :style {:background "#450a0a" :border "none" :border-radius 6
-                                 :color "#fca5a5" :padding "0 11px" :cursor "pointer"}} "✕"]]]))]
+                                 :color "#fca5a5" :padding "0 11px" :cursor "pointer"}} "✕"]]]))
          [:button {:on-click #(rf/dispatch [:add-bc-ligne])
                    :style {:background "#0f172a" :border "1px dashed #1f2937" :border-radius 6
                            :padding "6px 14px" :color "#475569" :font-size 11 :cursor "pointer"}}

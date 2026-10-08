@@ -20,6 +20,8 @@ npm run dev
 # → http://localhost:3000
 ```
 
+Démo en ligne (déployée par GitHub Actions à chaque push sur `main`) : https://hugourbest.github.io/stockpro/
+
 ## Rôles & permissions
 
 | Rôle | Voir stock | Saisir mvt | Créer BC | Valider BC | Réceptionner | Inventaire | Clôturer | Admin users |
